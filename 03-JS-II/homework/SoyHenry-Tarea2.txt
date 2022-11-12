@@ -1,0 +1,21 @@
+for
+
+El for es una estructura de control que existe dentro de un programa. Sirve para repetir una instruccion o un conjunto de instrucciones tantas veces quiera hasta que se cumpla una condicion. necesita tener 3 datos para esto: 
+-inicializar una variable ejemplo: var i= 0 que seria el dato a evaular y empezaria desde cero.
+-Una expresion i < 10 que se evalua, si se cumple una condicion al evaluarla, se ejecuta el resto de las instrucciones, sino no. 
+-un contador i++ que va incrementando el valor de la variable declarada al principio. 
+mientras la condicion sea true, las instrucciones del interior se van ejecutando.
+cuando es false, ya se sale del for. y continua con las instrucciones que existan a continuacion.
+ 
+&&, ||, !
+Estos son operadores lógicos que concatenan dos o mas condiciones de comparacion, segun si se cumplen las condiciones y los operadores, el flujo del programa sigue o no.
+
+&& es AND. dadas dos condiciones concatenadas por este operador:
+ - Si las dos condiciones se cumplen, da true.
+ - Si una de las condiciones no se cumple, da false.
+|| es OR. dadas dos condiciones concatenadas por este operador:
+ - Si una de las condiciones se cumple, da true.
+ - Si las dos condiciones no se cumplen, da false
+! este operador niega lo que sigue a continuacion. cualquier expresion que tenga una ! al comienzo, niega el resultado de la expresion. Si la expresion es verdadera, este operador la niega, lo mismo al reves. 
+Se puede usar doble resultando en el valor original de la expresion
+ 
