@@ -1,0 +1,19 @@
+Variables
+Es un espacio de la memoria de la computadora en donde podemos guardar un dato ( un nombre, un numero, un valor, etc )
+Este espacio en donde guardamos ese valor, le debemos dar un nombre, asi cuando necesitamos ese dato guardado, lo llamamos en el programa mediante el nombre
+
+
+Strings
+Una variable guarda un dato, pero ese dato puede ser de diferentes tipos, puede ser un numeral, una cadena de caracteres o un dato booleano, osea un si o un no ( true, false ) Strings es en tipo de dato que guarda un caracter o una cadena de caracteres, puede ser una horacion completa tambien. osea que cuando tenemos una variable que guarda una letra o conjunto de letras, esa variable es del tipo strings
+
+
+Funciones (argumentos, return)
+Un afuncion es un conjunto de instrucciones guardadas bajo un nombre, Mediante el nombre podemos llamar a esa funcion para que ejecute ese puñado de instrucciones. Esto se hace para no repetir instrucciones dentro de un programa, si ves que una parte de un programa se repite mucho, podes reunir todas esas instrucciones que se repiten en una funcion, y solamente llamar a la funcion las veces que necesites y no repetir código
+La funcion necesita argumentos a veces para funcionar. por ejemplo si tenes una funcion que suma dos numeros o que muestra un mensaje, los argumentos que le pasas a la funcion para que realice su operacion serían los dos numeros que queres sumar. o si tenes una fucnion que muestra un mensaje, el argumento es el mensaje que queres que muestre cada vez que llames a la funcion
+El comendo return es un comando que devuelve un dato cuando se termina de ejecutar la funcion, en algunos casas ese comando return se encuentra en el medio de la funcion, y no al final, por lo tanto al llegar a ese return, la ejecucion de la funcion se detiene y sale, devolviendo el dato que tenga. Osea, corta la ejecucion.
+
+Declaraciones if
+If es una instruccion de control de flujo del programa, al llegar a un if, el código evalua una expresion, si esa explresion resulta verdadera, se ejecuta un bloque de código, si la expresion resulta falsa, ese bloque de código no se ejecuta y continua con el siguiente bloque de código. Sirve para evaluar expresiones. 
+
+Valores booleanos (true, false).
+Una variable booleana o un valor booleano es un dato que solo puede ser true o false y puede ser guardado en una varianble
