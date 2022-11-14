@@ -1,0 +1,5 @@
+Arrays
+
+Es una estructura ( como una caja ) en donde podemos guardar una lista de datos ( en una variable podemos guardar un solo dato y de un solo tipo. ) en cambio en un array podemos guardar varios datos y de distinto tipo, incluso uno de los datos puede ser un array tambien.
+al tener varios datos en un array, podemos realizar muchas operaciones con ese conjunto de datos y con cada uno de los datos que existen en ese array o caja. podemos contar la cantidad de datos que hay, podemos agregar datos, podemos borrar datos, podemos traer un dato especifico de una posición específica, etc.
+podemos borrar el ultimo dato, o el primero, podemos agregar en el ultimo lugar o en el primero.
