@@ -1,0 +1,21 @@
+Objetos
+los objetos son contenedores de datos de distintos tipos, pero referidos a una cosa, a un objeto. un objeto es una colección de propiedades y una propiedad es una asociacion entre una clave o key y un valor. listado de pares de clave/valor referidas a un objeto.
+
+Propiedades
+las propiedades de un objeto es la convinacion de pares clave/valor. Un objeto auto tiene las siguientes propiedades:
+color: "azul"
+velocidad: 120
+valor 1500000
+
+Métodos
+un objeto puede tener propiedades y puede hacer cosas, esas cosas que puede hacer son los llamados métodos del objeto, que en realidad son funciones que estan dentro de un objeto.
+la funcion puede ser declarada afuera del objeto y luego introducirla dentro del objeto cuando lo creamos, o tambien puede ser creada dentro delmismo objeto. 
+
+Bucle for…in
+Es un bucle mediante el cual podemos recorrer las propiedades del objeto. ya que no podemos utilizar el bucle normal que utilizabamos por ejemplo con las matrices ( arrays)
+
+el for in recorre el objeto y nos devuelve la key de todas las propiedades, y tambien podemos agregar instrucciones para que nos devuelva el valor o dato. o sea todas las propiedades.
+
+
+Notación de puntos vs notación de corchetesuna vez que tenemos los datos cargados en el objeto ( clave:valor) podemos acceder a cada valor escribiendo el nombre de l objeto junto con el nombre de la clave, pero esto se puede hacer de dos formas, con corchete o con punto.
+con punto es mas facil, pero con corchete podemos usar una expresion dentro, cosa que no se puede hacer con la notacion de punto.
