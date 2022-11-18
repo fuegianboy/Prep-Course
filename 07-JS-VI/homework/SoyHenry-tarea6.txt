@@ -1,0 +1,11 @@
+Funciones Callback
+
+javascript es un entorno de programacion con funciones de primera clase, esto significa que las funciones pueden ser pasadas como argumento de otra funcion. Incluso pueden ser pasadas como variables, y ser devueltas tambien de esta forma.
+
+a estas funciones se las denomina callback. Dentro de una funcion o metodo, los parametros de la misma pueden ser un valor y una funcion ( declarados entre parentesis ) o puede haber varios parametros y una funcion, de esta forma, la funcion receptora de estos parámetros va a ejecutar de alguna forma esa funcion con los parametros pasados.
+.haceHalgo(parametro1, parametro2, parametro3, funcionCallBack ) seria asi la nomenclatura
+ademas de la misma forma podemos incluso escribir la funcion en el mismo lugar del argumento. por ejemplo: .hacerHalgo( parametro1, parametro2, fucntion() {hacer algo con los parametros}
+.reduce .map .forEach son metodos de orden superior, estos metodos recorren arrays y realizan diferentes funciones, pueden ejecutar en cada ciclo la funcion que le pasemos como parametro.
+.reduce devuelve un solo valor resultante de la aplicacion de la funcion pasada.
+.forEach no devuelve nada, pero modifica el array con la funcion pasada como argumento
+.map lo mismo con un array, lo recorre, y devuelve un nuevo array resultante de la aplicacion de la funcion pasada como parametro.
