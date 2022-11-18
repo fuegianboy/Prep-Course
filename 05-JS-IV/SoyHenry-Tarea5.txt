@@ -1,0 +1,26 @@
+prototype
+todos los objetos de java tienen un proto, que seria el constructor del quefueron creados. 
+en prototype estan todas los metodos o cosas o propiedades que tienen originalmente el objeto que estas evaluando.
+
+podemos crear un objeto nuevo, pero ese objeto ya tiene su proto mayor que seria otro objeto que ya tiene varias propiedades y metodos. 
+
+podemos agregar nuevas porpiedades y metodos al proto de un objeto que hayamos creado.
+
+incluso un string tiene un proto ( un objeto mayor al que está elacionado ) que ya tiene metodos creados. "Hola mundo!".upperCase  "Hola Mundo" es un texto que acabamos de crear, ese string pertenece , o tiene un proto que seria el objeto string, este yultimo ya tiene muchas propiedades y metodos creados, como por ejemplo el metodo .upperCase.
+
+Asi funciona
+
+
+Constructors (de Clases)
+
+El constructor nos permite crear una plantilla que luego nos va a servir para crear objetos iguales.
+
+Podemos crear muchos objetos GATO, cada uno de estos objetos tienen las mismas propiedades y metodos.
+En vez de crear cada uno de estos objetos Gato ( michi, manuel, tony, etc.) por separado, con constructor creamos una plantilla GATO que al referenciarla, nos va a permitir crear todos estos objetos para que sean de forma similiar, osea que tengan los mismos datos. y puedan ser tratasdos iguales,
+
+persona es una plantilla es una clase dentro del sistema. con esta plantilla o clase, vamos a pder crear personas distintas pero con las mismas propiedades ( nombre, apellido, mail, trabajo, hobbies, etc )
+auto es una plantilla tambien, y vamos a poder crear diferentes autos ( objetos ) con las mismas propiedades, pero distintos datos en esas propiedades. marca, modelo, velocidad color )
+
+ademas los autos , estos objetos, van a tener metodos, avanzar, frenar, encender, etc
+
+todo eso se puede crear con el constructor, para luego a partir de ese esqueleto, vamos a poder crear los diferentes objetos, con la misma estryuctura, pero diferentes datos, ya que son distintos
