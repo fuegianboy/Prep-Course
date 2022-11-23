@@ -1,0 +1,36 @@
+body{
+    background-image: url('Captura.PNG');
+    /*text-align:center;------------------alinear sin flexbox*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}   
+.flex-container { /*----------------para alinear con flexbox*/
+    border: 5px solid blue;
+    display: flex; /*----------------para alinear con flexbox*/
+    flex-flow: column; /*----------------para alinear con flexbox*/
+    align-items: center ; /*----------------para alinear con flexbox*/
+
+}
+h1 {
+    color: olivedrab;
+}
+img {
+    width: 200px;
+}
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: rgb(117, 176, 27);
+    /*padding: 50px;*/
+    border-color: rgb(223, 14, 246);
+    border-width: 10px;
+    border-style: double;
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+div {
+    width : 800px;
+    text-align: center; /*----------------para alinear con flexbox*/
+    /*margin:0px auto;--------------------alinear sin flexbox*/
+}

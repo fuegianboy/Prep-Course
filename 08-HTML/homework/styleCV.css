@@ -1,0 +1,85 @@
+body {
+    /*background-color: bisque;*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.principal {
+    display: flex;
+    flex-flow: row;
+}
+#ladoA {
+    width : 310px;
+    background-color: rgb(170, 169, 164);
+
+}
+
+#ladoB {
+    width : 800px;
+    padding: 5px;
+}
+#ladoC {
+    width: 200px;
+    background-color: rgb(170, 169, 164);
+    padding: 5px;
+}
+img {
+    width : 200px ;
+    border-radius: 50%;
+    margin: 15px 48px 5px 48px;
+}
+
+.divA {
+    width: 300px;
+    padding: 5px;
+}
+.divB {
+    width : 600px;
+    padding: 15px;
+    margin-bottom: 0px;
+}
+
+.texto {
+    width: 600px;
+    padding: 1px;
+}
+
+p {
+    color: brown;
+    
+    text-align: justify;
+    margin: 5px;
+    font-size: 14px;
+}
+.address {
+    color: brown;
+    font-weight: normal;
+}
+
+#name {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    padding: 2px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.datos {
+    margin-left: 10px;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.ulA {
+    font-weight: bold;
+}
+
+
